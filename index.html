@@ -48,9 +48,6 @@
 		                <li class="navigation__item">
 		                    <a href="#lyrics" class="navigation__link" onClick="unchecked()">&nbsp; &nbsp; Lyrics &nbsp; &nbsp;</a>
 		                </li>
-		                <li class="navigation__item">
-		                    <a href="#contact" class="navigation__link" onClick="unchecked()">Contact Me</a>
-		                </li>
 		            </ul>
 		        </nav>
 		    </div>
@@ -181,16 +178,6 @@
 			
 		</section>
 
-		<section class="contact" id="contact">
-			<h2 class="contact__heading">Contact Form</h2>
-			<!--https://banquetingsheets.herokuapp.com/email-->
-			<form action="https://script.google.com/macros/s/AKfycbw-huwiyRt4aCWNXMOx82T8EQZhRMGShiNYiM4Y/exec" method="post" class="contact__form gform" data-email="ml.antczak@gmail.com">
-				<input class="contact__form--name" type="text" name="name" placeholder="Enter your name">
-				<input class="contact__form--email" type="email" name="email" placeholder="Enter your email address" required>
-				<textarea class="contact__form--message" type="message" name="message" placeholder="Enter your message" required></textarea>
-				<input class="contact__form--submit" type="submit" value="Submit" onClick="thankyou()">
-			</form>
-		</section>
 		<footer class="footer">
 			<p>&copy; This website has been designed and made by <a href='https://www.michalantczak.com'>Michał Antczak</a>. All rights reserved.</p>
 			<p>&copy; The music has been created by <a href='https://www.michalantczak.com'>Michał Antczak</a> appearing here under a nickname Noir Fatale. It is ALLOWED to copy and share this music. It is NOT ALLOWED to make profits without agreement or claim an ownership over this music.</p>
@@ -209,6 +196,5 @@
 			<source class="audio__source" src="audio/Noir fatale - Autumn.mp3" type="audio/wav" >
 		</audio>
 		<script src="script.js" type="text/javascript"></script>
-		<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 	</body>
 </html>
